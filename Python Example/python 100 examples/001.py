@@ -1,11 +1,11 @@
 #--coding:utf-8--
 '''
-¡¾³ÌÐò1¡¿
-ÌâÄ¿£ºÓÐ1¡¢2¡¢3¡¢4¸öÊý×Ö£¬ÄÜ×é³É¶àÉÙ¸ö»¥²»ÏàÍ¬ÇÒÎÞÖØ¸´Êý×ÖµÄÈýÎ»Êý£¿¶¼ÊÇ¶àÉÙ£¿
+ã€ç¨‹åº1ã€‘
+é¢˜ç›®ï¼šæœ‰1ã€2ã€3ã€4ä¸ªæ•°å­—ï¼Œèƒ½ç»„æˆå¤šå°‘ä¸ªäº’ä¸ç›¸åŒä¸”æ— é‡å¤æ•°å­—çš„ä¸‰ä½æ•°ï¼Ÿéƒ½æ˜¯å¤šå°‘ï¼Ÿ
 '''
 for i in range(1,5):
 	for j in range(1,5):
 		if (i != j) :
 			for k in range(1,5):
 				if (i != k) and (j != k):
-					print i,j,k
+					print (i,j,k)
